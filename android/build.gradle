@@ -35,5 +35,5 @@ android {
 
 dependencies {
     //compile 'com.tencent.bugly:crashreport:latest.release'
-    implementation  files('libs/bugly_crash_release.jar')
+    api files('libs/bugly_crash_release.jar')
 }
